@@ -1,0 +1,51 @@
+@charset"utf-8"
+
+/*@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');*/
+
+
+/*reset*/
+
+/**font-family: 'Nanum Gothic', sans-serif;*/
+
+    
+*{}
+body,h1,h2,h3,h4,h5,h6,p,blockquoto,pre,dl,dd,ol,ul,fieldset,legend,figure,menu{
+    margin: 0; padding: 0; border: 0;}
+
+body, table, tr, td {
+    font-size: 14px;
+    color: #333;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+input, textarea, select, button {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    color: #333;
+    font-size: 14px;
+    outline: 0;
+    vertical-align: middle;
+}
+/*태그속성*/
+h1, h2, h3, h4, h5, h6{font-weight: normal}
+/*리스트 세팅*/
+ul, ol, li{list-style: none;}
+/*링크세팅*/
+a:link {text-decoration: none; color:#333; font-size: 14px;}
+a:visited, a:hover, a:active{text-decoration: none; color: #000;}
+/*테이블기본세팅*/
+table,th,td{border-spacing: 0; border-collapse: collapse;}
+/*이미지테두리*/
+img{border: 0; vertical-align: middle;}
+/*가상선택자*/
+.clearfix::before, .clearfix::after {display: block; content: ''; clear: both;}
+
+#wrap { width: 1200px; margin: 0 auto; }
+/*헤더*/
+header { width: 1200px; height: 150px; background: #CCC;}
+/*이미지슬라이드*/
+#banner { width: 1200px; height: 400px; background: #999;}
+/*콘텐츠*/
+#contents { width: 1200px; height: 300px; background: #ddd;}
+/*푸터*/
+footer { width: 1200px; height: 150px; background: #888;}
